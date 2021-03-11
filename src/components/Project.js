@@ -6,7 +6,7 @@ export default function Project() {
 
   useEffect(() => {
     axios
-      .get("https://dry-garden-18728.herokuapp.com/projects")
+      .get("https://afternoon-dawn-61672.herokuapp.com/projects")
       .then(data => {
         console.log(data);
         setProjectData(data.data);
