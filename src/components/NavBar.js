@@ -31,7 +31,7 @@ export default function Navbar() {
             About
           </NavLink>
         </nav>
-        <div className="inline-flex py-3 px-3 my-6">
+        <div className="inline-flex py-3 px-3 my-6 soc">
           <SocialIcon url="https://github.com/cupofnoodlesboxofwine" className="mr-4 hover:border-white" target="_blank" bgColor="black" fgColor="#fff" style={{ height:50, width:50 }}/>
         </div>
       </div>
