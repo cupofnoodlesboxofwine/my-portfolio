@@ -28,7 +28,7 @@ export default function Navbar() {
             activeClassName="text-white bg-gray-700"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-gray-200"
           >
-            About Me
+            About
           </NavLink>
         </nav>
         <div className="inline-flex py-3 px-3 my-6">

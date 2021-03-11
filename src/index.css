@@ -17,3 +17,14 @@
 .home-name {
   font-size: 150px;
 }
+
+@media only screen and (max-width: 550px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .home-name {
+    font-size: 100px;
+  }
+
+}
