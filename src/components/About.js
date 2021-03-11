@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import tcs from "../mun1.jpg"
+import tcs from "../mimmoPaladino.jpeg"
+import bg from "../mun1.jpg"
 
 export default function About() {
 
   const info = {
-    firstName: 'Derick',
-    lastName: 'Alfaro',
-    bio: "Fullstack Developer"
+    firstName: `Derick`,
+    lastName: `Alfaro`,
+    bio:`Fullstack Developer
+     Interest in every stage of development from client-side user interactions to server-side API design and development.`
   }
 
   const [author, setAuthor] = useState(info)
@@ -15,7 +17,7 @@ export default function About() {
 
   return (
     <main className="relative">
-      <img src={tcs} alt="Triangle Circle Square" className="absolute w-full "/>
+      <img src={bg} alt="bg" className="absolute w-full "/>
       <div className="p-10 lg:pt-48 container mx-auto relative">
         <section className="bg-gray-500 rounded-lg flex shadow-2xl p-20">
           <img src={tcs} className="rounded justify-center flex text-center w-32 h-32 lg:w-64 lg:h-64 mr-8" alt={author.name}/>
@@ -25,7 +27,10 @@ export default function About() {
               <span className="text-white">{author.firstName}</span>
             </h1>
             <div className="prose lg:prose-xl text-white">
-              <div className="text-white">{author.bio}</div>
+              <div className="text-white">
+               Fullstack Developer <br></br>
+               With an interest in every stage of development from client-side user interactions to server-side API design and development.
+               </div>
             </div>
           </div>
         </section>

@@ -15,13 +15,7 @@ export default function Navbar() {
           >
             Derick
           </NavLink>
-          <NavLink
-            to="/post"
-            activeClassName="text-white bg-gray-700"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-gray-200"
-          >
-            Blog Posts
-          </NavLink>
+        
           <NavLink
             to="/project"
             activeClassName="text-white bg-gray-700"

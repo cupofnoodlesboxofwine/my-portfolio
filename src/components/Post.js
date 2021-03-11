@@ -9,13 +9,16 @@ export default function Post() {
 
           // .then((data) => setPost(data))
           // .catch(console.error)
+
+          //<h3 className="text-5xl flex justify-center cursive" style={{marginBottom: 10}}>Blog Posts</h3>
+          //<h4 className="text-lg text-gray-600 flex justify-center mb-12">{`Welcome to my page of blog posts!`}</h4>
   })
 
   return (
     <main className="bg-gray-100 min-h-screen p-12">
         <section className="container mx-auto">
-          <h1 className="text-5xl flex justify-center cursive" style={{marginBottom: 10}}>Blog Posts</h1>
-          <h2 className="text-lg text-gray-600 flex justify-center mb-12">{`Welcome to my page of blog posts!`}</h2>
+
+          <h1 className='flex justify-center'>Coming Soon..</h1>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
             { postData && postData.map((post, index) => (
