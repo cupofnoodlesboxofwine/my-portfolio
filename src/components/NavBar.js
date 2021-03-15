@@ -5,28 +5,28 @@ import { SocialIcon } from "react-social-icons";
 export default function Navbar() {
   return (
     <header className="bg-black">
-      <div className="container mx-auto flex justify-between">
-        <nav className="flex">
+      <div className="h-head container mx-auto flex justify-between">
+        <nav className="flex links">
           <NavLink
             to="/"
             exact
             activeClassName="text-white"
-            className="inline-flex items-center py-6 px-3 mr-4 text-white hover:text-gray-200 text-4xl font-bold cursive tracking-widest"
+            className="inline-flex link items-center py-6 px-3 mr-4 text-white hover:text-gray-200 text-4xl font-bold cursive tracking-widest"
           >
             Derick
           </NavLink>
-        
+
           <NavLink
             to="/project"
             activeClassName="text-white bg-gray-700"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-gray-200"
+            className="inline-flex link items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-gray-200"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
             activeClassName="text-white bg-gray-700"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-gray-200"
+            className="inline-flex link items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-gray-200"
           >
             About
           </NavLink>

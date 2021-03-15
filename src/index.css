@@ -19,12 +19,37 @@
 }
 
 @media only screen and (max-width: 550px) {
+
   .home-name {
     font-size: 100px;
   }
 
-  .soc {
-    padding: 0px !important;
+  .h-head {
+    display: block;
   }
+
+  .soc {
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+    display: block;
+  }
+
+  .soc a {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .links {
+    display: block;
+    text-align: center;
+  }
+  .link {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+  }
+
 
 }

@@ -19,8 +19,8 @@ export default function About() {
     <main className="relative">
       <img src={bg} alt="bg" className="absolute w-full "/>
       <div className="p-10 lg:pt-48 container mx-auto relative">
-        <section className="bg-gray-500 rounded-lg flex shadow-2xl p-20">
-          <img src={tcs} className="rounded justify-center flex text-center w-32 h-32 lg:w-64 lg:h-64 mr-8" alt={author.name}/>
+        <section className="bg-gray-500 rounded-lg p-8 md:flex shadow-2xl md:p-20">
+          <img src={tcs} className="rounded mx-auto md:ml-0 mb-5 justify-center md:flex text-center w-32 h-32 lg:w-64 lg:h-64 md:mr-8" alt={author.name}/>
           <div className="text-lg flex flex-col justify-center">
             <h1 className="cursive text-6xl text-white mb-4">
               {`Hey there, I'm `}
