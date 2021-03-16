@@ -1,55 +1,156 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&family=Gothic+A1:wght@300;400;500;600;700&display=swap');
 
+html {
+  font-family: 'Gothic A1';
+  background: #1f1f1f;
+  color: white;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
 
-.cursive {
-  font-family: 'Source Sans';
+main {
+  margin: 17px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.desc {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.desc-2 {
+  font-size: 16.5px;
+  line-height: 1.5;
   font-weight: 400;
+  color: rgba(148,148,149, 1);
+  max-width: 500px;
 }
 
-.prose img {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
+#contact {
+  margin-top: 15px;
+  display: flex;
 }
 
-.home-name {
-  font-size: 150px;
+#square {
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
-@media only screen and (max-width: 550px) {
+#square p {
+  font-weight: 600;
+}
 
-  .home-name {
-    font-size: 100px;
+.git {
+  display: flex;
+  align-items: center;
+}
+
+.github {
+  border: 2px solid white;
+}
+
+.git p {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+#projects {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#projects article {
+  background: rgba(148,148,149, .1);
+  margin: 0 2px 4px;
+  width: 100%;
+  max-width: 350px;
+}
+
+@media only screen and (min-width: 600px) {
+
+  main {
+    display: flex;
+    padding: 20px;
   }
 
-  .h-head {
-    display: block;
+  #description {
+    width: 55%;
+    padding: 10px;
   }
 
-  .soc {
-    padding: 0px;
-    text-align: center;
-    margin: 0px;
-    display: block;
-  }
-
-  .soc a {
-    margin: 0px;
-    text-align: center;
-  }
-
-  .links {
-    display: block;
-    text-align: center;
-  }
-  .link {
-    display: block;
-    text-align: center;
+  #projects  {
+    width: 45%;
     margin: 0;
-    padding: 5px 0;
   }
 
+}
+
+@media only screen and (min-width: 900px) {
+html {
+  display: flex;
+  align-items: center;
+}
+main {
+  align-items: center;
+}
+  #description {
+    width: 35%;
+    padding: 10px;
+  }
+
+  #projects  {
+    width: 65%;
+    margin: 0;
+  }
+
+  #projects article {
+    width: 45%;
+    margin: 0 4px 8px;
+  }
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+  html {
+    justify-content: center;
+  }
+  main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #description {
+   width: 100%;
+   text-align: center;
+  }
+
+  .desc-2 {
+    margin: 0 auto;
+  }
+
+  #projects {
+    width: 800px;
+  }
+
+  #contact {
+    margin: 10px 0;
+    justify-content: center;
+  }
 
 }
