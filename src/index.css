@@ -81,6 +81,21 @@ main {
   max-width: 350px;
 }
 
+#email {
+  margin-left: 20px;
+}
+
+#email a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#email p {
+  padding-left: 10px;
+  font-weight: 600;
+}
+
 @media only screen and (min-width: 600px) {
 
   main {

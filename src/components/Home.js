@@ -15,10 +15,19 @@ export default function Home() {
 
          <div id="contact">
 
-           <a href="https://github.com/cupofnoodlesboxofwine" className="git">
-            <SocialIcon url="https://github.com/cupofnoodlesboxofwine"  target="_blank" className="github" bgColor="#1f1f1f" fgColor="#fff" style={{ height: 40, width: 40 }} />
-            <p>Github</p>
-           </a>
+            <div id="github">
+             <a href="https://github.com/cupofnoodlesboxofwine" className="git">
+              <SocialIcon url="https://github.com/cupofnoodlesboxofwine"  target="_blank" className="github" bgColor="#1f1f1f" fgColor="#fff" style={{ height: 40, width: 40 }} />
+              <p>Github</p>
+             </a>
+            </div>
+
+            <div id="email">
+              <a href="mailto:florafungifaunabiota@gmail.com">
+              <SocialIcon network="email" target="_blank" className="github" bgColor="#1f1f1f" fgColor="#fff" style={{ height: 40, width: 40 }} />
+              <p>Email</p>
+              </a>
+            </div>
 
          </div>
       </section>
